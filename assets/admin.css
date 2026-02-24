@@ -1,0 +1,82 @@
+.authforge-login-security-modal[hidden] {
+  display: none;
+}
+
+.authforge-login-security-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 100000;
+}
+
+.authforge-login-security-modal__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.authforge-login-security-modal__card {
+  position: relative;
+  width: min(560px, calc(100vw - 32px));
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+  padding: 20px 24px;
+}
+
+.authforge-login-security-modal__close {
+  position: absolute;
+  right: 12px;
+  top: 8px;
+  border: none;
+  background: transparent;
+  font-size: 28px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+#authforge-login-security-qr {
+  display: inline-block;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  padding: 8px;
+  background: #fff;
+}
+
+#authforge-login-security-qr canvas {
+  display: block;
+}
+
+#authforge-login-security-backup-list {
+  columns: 3;
+  margin: 8px 0 0;
+}
+
+#authforge-login-security-backup-list li {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace;
+  margin-bottom: 6px;
+}
+
+.authforge-login-security-message {
+  margin-top: 12px;
+  min-height: 20px;
+}
+
+.authforge-login-security-message.is-error {
+  color: #b42318;
+}
+
+.authforge-login-security-message.is-success {
+  color: #067647;
+}
+
+.authforge-login-security-warning {
+  color: #b42318;
+  font-weight: 600;
+  margin: 8px 0;
+}
+
+#authforge-login-security-turnstile-widget {
+  margin: 10px 0;
+}

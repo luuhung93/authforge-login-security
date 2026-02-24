@@ -1,0 +1,16 @@
+#login {
+  width: 350px;
+}
+
+#loginform {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#login .authforge-login-security-turnstile {
+  margin: 12px 0 16px;
+}
+
+#login .authforge-login-security-turnstile .cf-turnstile {
+  display: inline-block;
+}

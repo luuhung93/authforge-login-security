@@ -1,0 +1,229 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AuthForge Login Security 1.3.2\n"
+"POT-Creation-Date: 2026-02-25 00:00+0000\n"
+"PO-Revision-Date: 2026-02-25 00:00+0000\n"
+"Last-Translator: luuhung93\n"
+"Language-Team: Vietnamese\n"
+"Language: vi_VN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Domain: authforge-login-security\n"
+
+msgid "AuthForge Login Security"
+msgstr "Bảo mật đăng nhập AuthForge"
+
+msgid "Status"
+msgstr "Trạng thái"
+
+msgid "Enabled"
+msgstr "Đã bật"
+
+msgid "Disabled"
+msgstr "Đã tắt"
+
+msgid "2FA is required at wp-login for this user when enabled."
+msgstr "Khi bật, tài khoản này bắt buộc xác thực 2FA tại wp-login."
+
+msgid "Backup codes"
+msgstr "Mã dự phòng"
+
+msgid "codes remaining"
+msgstr "mã còn lại"
+
+msgid "Actions"
+msgstr "Thao tác"
+
+msgid "Reconfigure 2FA"
+msgstr "Thiết lập lại 2FA"
+
+msgid "Enable 2FA"
+msgstr "Bật 2FA"
+
+msgid "Regenerate backup codes"
+msgstr "Tạo lại mã dự phòng"
+
+msgid "Disable 2FA"
+msgstr "Tắt 2FA"
+
+msgid "Set up Two-Factor Authentication"
+msgstr "Thiết lập xác thực hai lớp"
+
+msgid "Warning: This setup replaces the previous secret. Old authenticator devices will no longer generate valid codes."
+msgstr "Cảnh báo: Thiết lập này sẽ thay thế secret cũ. Các thiết bị xác thực cũ sẽ không còn tạo mã hợp lệ."
+
+msgid "1) Scan this QR code in your authenticator app."
+msgstr "1) Quét mã QR này bằng ứng dụng xác thực."
+
+msgid "2) If needed, enter this secret manually:"
+msgstr "2) Nếu cần, nhập secret này thủ công:"
+
+msgid "3) Enter the 6-digit code to verify setup."
+msgstr "3) Nhập mã 6 chữ số để xác nhận thiết lập."
+
+msgid "Verify and Enable"
+msgstr "Xác nhận và bật"
+
+msgid "Backup codes (show once)"
+msgstr "Mã dự phòng (chỉ hiển thị một lần)"
+
+msgid "Use each code once if you cannot access your authenticator app."
+msgstr "Mỗi mã chỉ dùng một lần khi bạn không thể truy cập ứng dụng xác thực."
+
+msgid "Copy backup codes"
+msgstr "Sao chép mã dự phòng"
+
+msgid "Loading..."
+msgstr "Đang tải..."
+
+msgid "Something went wrong. Please try again."
+msgstr "Có lỗi xảy ra. Vui lòng thử lại."
+
+msgid "Enter 6-digit code"
+msgstr "Nhập mã 6 chữ số"
+
+msgid "2FA is enabled. Save backup codes now."
+msgstr "Đã bật 2FA. Hãy lưu mã dự phòng ngay bây giờ."
+
+msgid "New backup codes generated."
+msgstr "Đã tạo mã dự phòng mới."
+
+msgid "Disable 2FA for this account?"
+msgstr "Tắt 2FA cho tài khoản này?"
+
+msgid "Backup codes copied."
+msgstr "Đã sao chép mã dự phòng."
+
+msgid "Cannot copy automatically. Please copy manually."
+msgstr "Không thể sao chép tự động. Vui lòng sao chép thủ công."
+
+msgid "Cloudflare Turnstile"
+msgstr "Cloudflare Turnstile"
+
+msgid "Enable Turnstile on Login"
+msgstr "Bật Turnstile ở trang đăng nhập"
+
+msgid "Turnstile Site Key"
+msgstr "Turnstile Site Key"
+
+msgid "Turnstile Secret Key"
+msgstr "Turnstile Secret Key"
+
+msgid "Turnstile Test"
+msgstr "Kiểm tra Turnstile"
+
+msgid "AuthForge Login Security Settings"
+msgstr "Cài đặt AuthForge Login Security"
+
+msgid "Require Turnstile challenge on wp-login.php before authentication."
+msgstr "Yêu cầu thử thách Turnstile trên wp-login.php trước khi xác thực."
+
+msgid "Open Turnstile Test"
+msgstr "Mở kiểm tra Turnstile"
+
+msgid "Use current Site Key and Secret Key values to run a live Turnstile verification test in a popup."
+msgstr "Dùng Site Key và Secret Key hiện tại để chạy kiểm tra xác thực Turnstile trực tiếp trong popup."
+
+msgid "Invalid request method."
+msgstr "Phương thức yêu cầu không hợp lệ."
+
+msgid "Not allowed."
+msgstr "Không được phép."
+
+msgid "Invalid security token."
+msgstr "Mã bảo mật không hợp lệ."
+
+msgid "Missing token or secret key."
+msgstr "Thiếu token hoặc secret key."
+
+msgid "Turnstile verification failed. Check Site Key/Secret Key and try again."
+msgstr "Xác thực Turnstile thất bại. Hãy kiểm tra Site Key/Secret Key và thử lại."
+
+msgid "Turnstile verification passed."
+msgstr "Xác thực Turnstile thành công."
+
+msgid "Close"
+msgstr "Đóng"
+
+msgid "Turnstile Live Test"
+msgstr "Kiểm tra Turnstile trực tiếp"
+
+msgid "Complete the challenge below. The plugin will verify the token with the Secret Key you entered."
+msgstr "Hoàn thành thử thách bên dưới. Plugin sẽ xác thực token bằng Secret Key bạn đã nhập."
+
+msgid "Please enter both Turnstile Site Key and Secret Key."
+msgstr "Vui lòng nhập cả Turnstile Site Key và Secret Key."
+
+msgid "Loading challenge..."
+msgstr "Đang tải thử thách..."
+
+msgid "Verifying challenge..."
+msgstr "Đang xác thực thử thách..."
+
+msgid "Turnstile test passed."
+msgstr "Kiểm tra Turnstile thành công."
+
+msgid "Turnstile test failed. Please try again."
+msgstr "Kiểm tra Turnstile thất bại. Vui lòng thử lại."
+
+msgid "Unable to load Turnstile script. Refresh and try again."
+msgstr "Không thể tải script Turnstile. Vui lòng tải lại trang và thử lại."
+
+msgid "Challenge expired. Please complete it again."
+msgstr "Thử thách đã hết hạn. Vui lòng thực hiện lại."
+
+msgid "Please complete the security check."
+msgstr "Vui lòng hoàn thành bước kiểm tra bảo mật."
+
+msgid "Security check failed. Please try again."
+msgstr "Kiểm tra bảo mật thất bại. Vui lòng thử lại."
+
+msgid "Your verification session is invalid or expired. Please login again."
+msgstr "Phiên xác thực không hợp lệ hoặc đã hết hạn. Vui lòng đăng nhập lại."
+
+msgid "User not found. Please login again."
+msgstr "Không tìm thấy người dùng. Vui lòng đăng nhập lại."
+
+msgid "Two-factor authentication is disabled for this account. Please login again."
+msgstr "Xác thực hai lớp đã bị tắt cho tài khoản này. Vui lòng đăng nhập lại."
+
+msgid "Security check failed. Please login again."
+msgstr "Kiểm tra bảo mật thất bại. Vui lòng đăng nhập lại."
+
+msgid "Authentication code is required."
+msgstr "Bắt buộc nhập mã xác thực."
+
+msgid "Two-factor is enabled but not configured for this account."
+msgstr "2FA đã bật nhưng chưa được cấu hình cho tài khoản này."
+
+msgid "Invalid authentication or backup code."
+msgstr "Mã xác thực hoặc mã dự phòng không hợp lệ."
+
+msgid "Two-Factor Authentication"
+msgstr "Xác thực hai lớp"
+
+msgid "Authentication code"
+msgstr "Mã xác thực"
+
+msgid "Verify"
+msgstr "Xác nhận"
+
+msgid "Back to login"
+msgstr "Quay lại đăng nhập"
+
+msgid "User not found."
+msgstr "Không tìm thấy người dùng."
+
+msgid "Please enter a valid 6-digit code."
+msgstr "Vui lòng nhập mã 6 chữ số hợp lệ."
+
+msgid "Setup expired. Start again."
+msgstr "Thiết lập đã hết hạn. Vui lòng bắt đầu lại."
+
+msgid "Invalid authentication code."
+msgstr "Mã xác thực không hợp lệ."
+
+msgid "2FA is not enabled for this user."
+msgstr "Người dùng này chưa bật 2FA."
