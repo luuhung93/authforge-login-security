@@ -50,7 +50,6 @@ final class AuthForge_Login_Security_Plugin {
     private function __construct(AuthForge_Login_Security_TOTP $totp) {
         $this->totp = $totp;
 
-        add_action('plugins_loaded', array($this, 'load_textdomain'));
         add_action('login_form', array($this, 'render_login_field'));
         add_action('login_form_' . self::LOGIN_ACTION_OTP, array($this, 'handle_login_otp_challenge'));
         add_action('login_enqueue_scripts', array($this, 'enqueue_login_assets'));
@@ -69,10 +68,6 @@ final class AuthForge_Login_Security_Plugin {
         add_action('wp_ajax_' . self::AJAX_ACTION_REGENERATE_BACKUP, array($this, 'ajax_regenerate_backup_codes'));
         add_action('wp_ajax_' . self::AJAX_ACTION_DISABLE_2FA, array($this, 'ajax_disable_2fa'));
         add_action('wp_ajax_' . self::AJAX_ACTION_TEST_TURNSTILE, array($this, 'ajax_test_turnstile'));
-    }
-
-    public function load_textdomain() {
-        load_plugin_textdomain('authforge-login-security', false, dirname(plugin_basename(\AUTHFORGE_LOGIN_SECURITY_FILE)) . '/languages');
     }
 
     private function is_enabled_for_user($user_id) {
