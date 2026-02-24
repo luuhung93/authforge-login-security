@@ -4,7 +4,7 @@ Plugin Name: AuthForge Login Security
 Description: Lightweight TOTP 2FA for wp-login. Includes modal setup with QR and one-time backup codes.
 Version: 1.3.2
 Author: luuhung93
-Author URI: https://github.com/luuhung93/WP-Simple-Login-Security
+Author URI: https://github.com/luuhung93
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: authforge-login-security
